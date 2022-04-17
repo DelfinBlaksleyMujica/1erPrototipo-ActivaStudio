@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
 <title>Activá Studio</title>
 </head>
@@ -17,13 +18,13 @@
         <div class="navBar">
             <nav>
                 <ul class="menuDeNavegacion">
-                    <li> <a href="./index.html">Activá</a></li>
-                    <li> <a href="./pages/aboutUs.html">World</a></li>
-                    <li> <a href="./pages/merchandise.html">Merchandise</a></li>
+                    <li> <a class="subrayado" href="./index.html">Activá</a></li>
+                    <li> <a class="subrayado" href="./pages/aboutUs.html">World</a></li>
+                    <li> <a class="subrayado" href="./pages/merchandise.html">Merchandise</a></li>
                     <li class="logoMenuDeNavegacion"> <a href="./index.html"><img class="logoMenuDeNavegacion" src="./img/LogoPicantitoAchicadoFondoNegro.png" alt="Logo de ActivaStudio-Productora audiovisual" title="Logo de ActivaStudio-Productora audiovisual"></a></li>
-                    <li> <a href="./pages/indoors.html">Indoors</a></li>
-                    <li> <a href="./pages/gallery.html">Galeria</a></li>
-                    <li> <a href="./pages/contact.html">Contacto</a></li>
+                    <li> <a class="subrayado" href="./pages/indoors.html">Indoors</a></li>
+                    <li> <a class="subrayado" href="./pages/gallery.html">Galeria</a></li>
+                    <li> <a class="subrayado" href="./pages/contact.html">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,14 +32,18 @@
         <div class="index__Titulo__Container">
             <hr>
 
-            <h2 class="videosIndex_titulo">¡No te pierdas el último videoclip de Panther y Sixto!</h2>
+            <h2 class="videosIndex_titulo animate__animated animate__flash">¡No te pierdas el último videoclip de Panther y Sixto!</h2>
 
             <hr>
         </div>
 
         <div class="index__VideoyTexto__Container">
 
+            <div class="index__VideoyTexto__Efecto"></div>
+
             <div class="index__Video__Container"><iframe class="videosIndex__Centro" width="560" height="315" src="https://www.youtube.com/embed/SO5pb09voN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            <div class="index__VideoyTexto__Efecto"></div>
             
             <div class="index__Texto__Container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident atque corrupti, quo distinctio autem sequi culpa fuga vital Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia praesentium deserunt nemo soluta aut ratione consectetur quisquam expedita, pariatur voluptatem magnam odit! Suscipit iste, impedit maxime atque architecto deserunt facere.</minus></tempora></possimus></p></div>
 
@@ -125,5 +130,10 @@
         <div class="margin__izquierdo"></div>
         <div class="margin__derecho"></div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
