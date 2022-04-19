@@ -436,7 +436,7 @@
     grid-area: footer;
     color: white;
     font-family: "Bungee";
-    font-size: 7px;
+    font-size: 10px;
     background-color: rgb(63, 19, 104);
 }
     
@@ -449,7 +449,7 @@
     grid-area: footer;
     color: white;
     font-family: "Bungee";
-    font-size: 5px;
+    font-size: 7px;
     background-color: rgb(63, 19, 104);
 }
     
@@ -462,7 +462,7 @@
     grid-area: footer;
     color: white;
     font-family: "Bungee";
-    font-size: 3px;
+    font-size: 5px;
     background-color: rgb(63, 19, 104);
 }
     
