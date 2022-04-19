@@ -432,7 +432,7 @@
 
 @media (max-width:1024px) {
     
-.footer { 
+.footer p{ 
     grid-area: footer;
     color: white;
     font-family: "Bungee";
@@ -445,7 +445,7 @@
 
 @media (max-width:768px) {
     
-.footer { 
+.footer p{ 
     grid-area: footer;
     color: white;
     font-family: "Bungee";
@@ -458,7 +458,7 @@
 
 @media (max-width:320px) {
     
-.footer { 
+.footer p{ 
     grid-area: footer;
     color: white;
     font-family: "Bungee";
