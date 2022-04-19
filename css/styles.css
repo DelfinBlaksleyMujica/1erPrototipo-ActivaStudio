@@ -8,7 +8,7 @@
 .index-container {  
     display: grid;
     grid-template-columns: 1.3fr 3fr 1.3fr;
-    grid-template-rows: 1fr 0.7fr 2.7fr 2fr 1fr 4fr 40px;
+    grid-template-rows: 1fr 0.7fr 2.7fr 2fr 1fr 4fr 60px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -358,7 +358,7 @@
     
 }
 
-#BotonEnviar{
+#BotonEnviarIndex{
     margin-top: 60px;
     margin-left: 27rem;
     font-family: "Bungee";
@@ -370,53 +370,57 @@
 }
 
 @media (max-width:599px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin-left:19.5rem;
     }
     
 }
 
 @media (max-width:1900px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin-left: 26rem;
     }
     
 }
 
 @media (max-width:1850px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin: left 24rem;
     }
     
 }
 
 @media (max-width:1700px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin-left: 22rem;
     }
     
 }
 
 @media (max-width:1500px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin-left: 20rem;
     }
     
 }
 
 @media (max-width:1200px) {
-    #BotonEnviar{
+    #BotonEnviarIndex{
         margin-left:15rem;
     }
     
 }
 
 @media (max-width:1024px) {
-    #BotonEnviar{
-        margin-left: 13.5rem;
+    #BotonEnviarIndex{
+        margin-left: 12rem;
     }
     
 }
+
+
+
+
 
 .footer { 
     grid-area: footer;
@@ -447,7 +451,7 @@
 .World__Container {  
     display: grid;
     grid-template-columns: 1.3fr 3fr 1.3fr;
-    grid-template-rows: 0.3fr 0.2fr /*2.3fr*/ 2fr 40px;
+    grid-template-rows: 0.3fr 0.2fr /*2.3fr*/ 2fr 60px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -470,9 +474,18 @@
 .World__Titulo__Container { 
     grid-area: World__Titulo__Container;
     background-color: black;
-    background-image: url(https://media.istockphoto.com/photos/blazing-fire-border-isolated-on-black-picture-id939762314?k=20&m=939762314&s=170667a&w=0&h=MQuxlmSup-t21I1J73DpEk918MLHRelXgMp8xpg2nPA=); 
+    background-image: url(../img/istockphoto-939762314-170667a\ \(1\).jpg); 
 }
 
+@media (max-width:587px) {
+    .World__Titulo__Container { 
+        grid-area: World__Titulo__Container;
+        background-color: black;
+        background-image: url(../img/istockphoto-939762314-170667a\ \(1\).jpg);
+    }
+
+    
+}
 
 
 .World__Titulo__Container p{
@@ -482,6 +495,7 @@
     font-size: 50px;
     color:white;
 }
+
 
 
 /*.World__Reel__Container { 
@@ -503,7 +517,18 @@
 .World__AboutUs__Container { 
     grid-area: World__AboutUs__Container;
     margin-top: 80px;
-    margin-left: 80px; 
+    margin-left: 80px;
+    background-color: black;
+}
+
+@media (max-width:585px) {
+    .World__AboutUs__Container { 
+        grid-area: World__AboutUs__Container;
+        margin-top: 0px;
+        margin-left: 80px;
+        background-color: black;
+    }
+    
 }
 
 .world__Textos__1{
@@ -514,6 +539,7 @@
     border-radius: 20px;
     font-size: 10px;
 }
+
 
 .world__Textos__2{
     font-family: "Bungee";
@@ -543,7 +569,7 @@
 .indoors-container {  
     display: grid;
     grid-template-columns: 1.3fr 3fr 1.3fr;
-    grid-template-rows: 0.4fr 0.3fr 0.4fr 3.5fr 40px;
+    grid-template-rows: 0.4fr 0.3fr 0.4fr 3.5fr 60px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -560,7 +586,7 @@
     .indoors-container {  
         display: grid;
         grid-template-columns: 1.3fr 3fr 1.3fr;
-        grid-template-rows: 0.4fr 0.3fr 0.2fr 3.5fr 40px;
+        grid-template-rows: 0.4fr 0.3fr 0.2fr 3.5fr 60px;
         grid-auto-columns: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
@@ -579,7 +605,7 @@
     .indoors-container {  
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 0.2fr 0.3fr 0.2fr 3.5fr 40px;
+        grid-template-rows: 0.2fr 0.3fr 0.2fr 3.5fr 60px;
         grid-auto-columns: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
@@ -598,7 +624,7 @@
     .indoors-container {  
         display: grid;
         grid-template-columns: 0.8fr 2.5fr 0.8fr;
-        grid-template-rows: 0.1fr 0.2fr 0.1fr 3fr 40px;
+        grid-template-rows: 0.1fr 0.2fr 0.1fr 3fr 60px;
         grid-auto-columns: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
@@ -808,7 +834,7 @@
 .gallery-container {  
     display: grid;
     grid-template-columns: 1.3fr 3fr 1.3fr;
-    grid-template-rows: 0.4fr 0.4fr 3.5fr 1fr 40px;
+    grid-template-rows: 0.4fr 0.4fr 3.5fr 1fr 60px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -1043,8 +1069,20 @@
     }
 }
 
+#BotonEnviarContactos{
+    margin-top: 60px;
+    margin-left: 26rem;
+    font-family: "Bungee";
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+    width:150px;
+    height:50px;
+}
+
+
 @media (max-width:1024px) {
-    #BotonEnviar{
+    #BotonEnviarContactos{
         margin-left:270px; 
     }
     
@@ -1052,7 +1090,7 @@
 
 @media (max-width:768px) {
 
-    #BotonEnviar{
+    #BotonEnviarContactos{
         margin-left: 265px;
     }
     
@@ -1074,12 +1112,17 @@
     border: solid 2px black;
 }
 
-#BotonEnviar:hover{
+#BotonEnviarIndex:hover{
     color: black;
     background-color: white;
     border: solid 2px black;
 }
 
+#BotonEnviarContactos:hover{
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+}
 
 #episodios__selectTemporada:hover{
     color: black;
