@@ -101,7 +101,8 @@
   font-weight: bolder;
   font-family: "Bungee";
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  text-align: center; }
 
 .suscripciones__parrafo {
   color: white;
@@ -594,6 +595,10 @@
   .navBar .menuDeNavegacion li a {
     font-size: 7px; } }
 
+@media (max-width: 460px) {
+  .navBar .menuDeNavegacion li a {
+    margin-left: 4px; } }
+
 @media (max-width: 1400px) {
   .logoMenuDeNavegacion {
     width: 9.8rem; } }
@@ -632,7 +637,7 @@
 
 @media (max-width: 320px) {
   .logoMenuDeNavegacion {
-    width: 3rem; } }
+    width: 2rem; } }
 
 @media (max-width: 1500px) {
   .index__Titulo__Container {
@@ -676,6 +681,10 @@
   .index__Texto__Container {
     font-size: 9px; } }
 
+@media (max-width: 320px) {
+  .index__Texto__Container {
+    margin-left: 35px; } }
+
 @media (max-width: 1500px) {
   .suscripciones__titulo {
     font-size: 28px; } }
@@ -728,6 +737,10 @@
   .suscripciones__email {
     font-size: 5px; } }
 
+@media (max-width: 320px) {
+  #BotonEnviarIndex {
+    width: 80px; } }
+
 @media (max-width: 1500px) {
   .canales__titulo {
     font-size: 28px; } }
@@ -779,6 +792,12 @@
 @media (max-width: 1127px) {
   .contactoIndex__NuestroContacto {
     font-size: 9px; } }
+
+@media (max-width: 320px) {
+  .contactoIndex__NuestroContacto ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 @media (max-width: 1500px) {
   .index__Contacto__Informacion div input {
@@ -800,9 +819,15 @@
   .index__Contacto__Informacion .contactoIndex__Telefono #Telefono {
     font-size: 6px; } }
 
-@media (max-width: 320) {
+@media (max-width: 320px) {
   .index__Contacto__Informacion div input {
-    font-size: 5px; } }
+    font-size: 5px; }
+  .index__Contacto__Informacion .contactoIndex__Nombre #Nombre {
+    font-size: 5px;
+    width: 70%; }
+  .index__Contacto__Informacion .contactoIndex__Telefono #Telefono {
+    font-size: 5px;
+    width: 70%; } }
 
 @media (max-width: 1500px) {
   .contactoIndex__Nombre #Nombre {
@@ -821,8 +846,11 @@
     font-size: 6px; } }
 
 @media (max-width: 320px) {
+  .contactoIndex__Nombre {
+    width: 35%; }
   .contactoIndex__Nombre #Nombre {
-    font-size: 5px; } }
+    font-size: 5px;
+    margin-left: 20px; } }
 
 @media (max-width: 1500px) {
   .contactoIndex__Email #Email {
@@ -842,7 +870,9 @@
 
 @media (max-width: 320px) {
   .contactoIndex__Email #Email {
-    font-size: 5px; } }
+    font-size: 5px;
+    width: 70%;
+    margin-left: 10px; } }
 
 @media (max-width: 1500px) {
   .contactoIndex__Telefono #Telefono {
@@ -861,10 +891,16 @@
     font-size: 6px; } }
 
 @media (max-width: 320px) {
-  .contactoIndex__Telefono #Telefono {
+  .index__Contacto__Informacion .contactoIndex__Telefono input {
     font-size: 5px; } }
 
 /*Estas medias quaries las voy a corregir con un grids en el futuro*/
+@media (max-width: 1800px) {
+  .contactoIndex__Asunto #Asunto {
+    margin-left: 370px; }
+  .contactoIndex__Asunto {
+    width: 22%; } }
+
 @media (max-width: 1700px) {
   .contactoIndex__Asunto {
     margin-top: 50px;
@@ -893,7 +929,9 @@
 
 @media (max-width: 1500px) {
   .contactoIndex__Asunto #Asunto {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .contactoIndex__Asunto #Asunto {
+    margin-left: 295px; } }
 
 @media (max-width: 1450px) {
   .contactoIndex__Asunto #Asunto {
@@ -968,7 +1006,8 @@
 
 @media (max-width: 320px) {
   .contactoIndex__Asunto {
-    width: 25%; }
+    width: 40%;
+    margin-left: -105px; }
   .contactoIndex__Asunto #Asunto {
     font-size: 5px; } }
 
@@ -1023,6 +1062,10 @@
 @media (max-width: 1024px) {
   .index__Contacto__Container form #BotonEnviarIndex {
     margin-left: 14rem; } }
+
+@media (max-width: 320px) {
+  .index__Contacto__Container form #BotonEnviarIndex {
+    margin-left: 8rem; } }
 
 @media (max-width: 1100px) {
   .footer p {
